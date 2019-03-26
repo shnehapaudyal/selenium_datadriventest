@@ -73,7 +73,7 @@ public class Main {
 					driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).click();
 					driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/content/span")).click();
 
-					driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys("Nepal123!");
+					driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys("password");
 					LOG.info("Finished writing password ...");
 					driver.findElement(By.xpath("//*[@id=\"passwordNext\"]/content/span")).click();
 					/*
